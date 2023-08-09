@@ -21,7 +21,7 @@
 
     let tick = new Audio("./media/tick.mp3")
     // tick.currentTime = 0;
-    //tick.play()
+    tick.play()
 
     setTimeout(updateClock, 1000)
 
